@@ -9,7 +9,7 @@
                         slot="header"
                         class="clearfix"
                 >
-                    <span><i class="fa fa fa-book"> 创建文章</i></span>
+                    <span><i class="fa fa fa-book"> 编辑文章</i></span>
                 </div>
                 <div>
                     <el-form
@@ -115,7 +115,7 @@
                             this.contentEditor.getValue() == null ||
                             this.contentEditor.getValue() === ''
                         ) {
-                            alert('话题内容不可为空')
+                            alert('文章内容不可为空')
                             return false
                         }
                         this.ruleForm.content = this.contentEditor.getValue()

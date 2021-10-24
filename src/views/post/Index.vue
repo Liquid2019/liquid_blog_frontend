@@ -53,7 +53,7 @@
             return{
                 articleList:[],
                 cur: 1,
-                totalPage: 1,
+                totalPage: 15,
                 loading:true
             }
         },

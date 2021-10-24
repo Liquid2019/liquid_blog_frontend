@@ -8,7 +8,7 @@
                 style="width: 100%">
             <el-table-column
                     prop="host"
-                    label="host"
+                    label="ip"
                     width="150">
             </el-table-column>
             <el-table-column

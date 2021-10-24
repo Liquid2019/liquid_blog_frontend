@@ -5,7 +5,7 @@
                 <th>name</th>
                 <th>content</th>
                 <th>time</th>
-                <th>host</th>
+                <th>ip</th>
                 <th>agent</th>
                 <th>handle</th>
             </tr>
