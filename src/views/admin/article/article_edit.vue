@@ -75,9 +75,11 @@
                 }
             }
         },
-        mounted() {
+        created() {
             this.articleId=this.$route.query.id;
             this.fetchArticle();
+        },
+        mounted() {
             this.contentEditor = new Vditor('vditor', {
                 height: 500,
                 theme: 'classic',
@@ -123,6 +125,7 @@
                         tmp['articleId']=this.articleId;
                         tmp['articleTitle']=this.ruleForm.title;
                         tmp['articleContent']=this.ruleForm.content;
+                        tmp['articleCreateTime']=this.dayjs(this.createTime).format('YYYY-MM-DD HH:mm:ss');
                         console.log(tmp);
                         updateArticle(tmp).then((response) => {
                             const { data } = response

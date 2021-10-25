@@ -5,7 +5,7 @@
                 <th>name</th>
                 <th>content</th>
                 <th>time</th>
-                <th>ip</th>
+                <th>ipda</th>
                 <th>agent</th>
                 <th>handle</th>
             </tr>
